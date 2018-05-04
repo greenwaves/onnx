@@ -12,6 +12,7 @@ During development, it's convenient to install ONNX in development mode (for ONN
 
 ```
 git clone --recursive https://github.com/onnx/onnx.git
+git submodule update --init --recursive
 pip install -e onnx/
 ```
 Then, after you have made changes to Python and C++ files:
